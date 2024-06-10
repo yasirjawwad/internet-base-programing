@@ -1,0 +1,14 @@
+CREATE TABLE users (
+  user_id INT NOT NULL AUTO_INCREMENT,
+  username VARCHAR(50) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  phone_number VARCHAR(20) NOT NULL,
+  address VARCHAR(255) NOT NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id)
+);
+________________________________________________
+??inserting into table
+
+INSERT INTO foods (food_name,description,food_price,image_url,image_url1,image_url2,image_url3) VALUES("","",10.99,"gallery1.jpg","gallery2.jpg","gallery3.jpg","gallery4.jpg")
